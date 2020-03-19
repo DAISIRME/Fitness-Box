@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="40dp"
+    android:text="完善资料"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="80dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:text="使用好友熟悉的头像和名字，方便他们找到你"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+    <ImageView
+        android:id="@+id/Choose_photo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/camera"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/input_name"
+        android:gravity="center_horizontal"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:hint="请输入您的名称"/>
+    <TextView
+        android:id="@+id/next_step"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下一步"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+</LinearLayout>
